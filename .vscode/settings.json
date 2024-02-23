@@ -1,0 +1,30 @@
+{
+    "idf.portWin": "COM8",
+    "idf.adapterTargetName": "esp32c3",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-builtin.cfg"
+    ],
+    "idf.flashType": "UART",
+    "idf.port": "/dev/ttyS8",
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "*.vhd": "vhdl",
+        "esp_vfs_fat.h": "c",
+        "string.h": "c",
+        "esp_console.h": "c",
+        "uart.h": "c",
+        "freertos.h": "c",
+        "task.h": "c",
+        "nmea_parser.h": "c",
+        "type_traits": "c",
+        "lora.h": "c",
+        "gpio.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "vector": "c",
+        "xstring": "c",
+        "xutility": "c",
+        "event_groups.h": "c"
+    }
+}
